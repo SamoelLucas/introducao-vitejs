@@ -1,8 +1,22 @@
+import { Link } from "react-router";
+
+import styles from './index.module.css';
+
 function Home() {
     return (
-        <>
-            <h1>Aula React com VITE JS</h1>
-        </>
+        <div className={styles.container}>
+            <h1>Aula React com VITE JS</h1>            
+            <div className={styles.containerItens}>
+                <h2>Exemplos</h2>
+
+                <Link to="/exemplo/1">Exemplo 1 - Componente básico</Link>
+                <Link to="/exemplo/2">Exemplo 2 - Uso de estilização</Link>
+
+            </div>
+            <div className={styles.containerItens}>
+                <h2>Atividades</h2>
+            </div>
+        </div>
     )
 }
 
