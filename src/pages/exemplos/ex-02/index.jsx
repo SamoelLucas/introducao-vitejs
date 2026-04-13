@@ -1,20 +1,26 @@
-import './index.css'
+
+import styles from './index.module.css';
 
 function Exemplo02() {
+
   return (
-    <div className='container'>
-      <p>Teste</p>
-      <h1>Programação WEB III</h1>      
-      <h2>Aula React com Vite JS</h2>
-      <h3>Estilização de páginas</h3>
-      <p>Usando diferentes tipos de chamada para estilização.</p> 
+    <div className={styles.container}>
+      <h1>Aula Introdução Vite JS</h1>      
+      <h2>Preparo do projeto</h2>
+      <h3>Estilização</h3>
+      <p>Entendendo uso de css dentro do projeto.</p>
       <label>Exemplo Label</label>
-      <small>Exemplo small</small>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repellat eum accusamus obcaecati veritatis odio possimus eveniet quos voluptatibus, similique culpa amet natus! Sit obcaecati omnis tempora in odio natus.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis fugiat nam cupiditate aperiam mollitia repellat accusantium deserunt nesciunt eius in numquam aliquid quo voluptatibus facere molestias, repudiandae rem dicta quae?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsa dignissimos excepturi, ullam, illum vitae asperiores praesentium nesciunt aspernatur laboriosam voluptatibus natus. Non, dicta exercitationem sit laudantium magnam cupiditate ipsa.
+      <small>Exemplo Small</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, blanditiis delectus. Nihil sed consequuntur voluptate maiores, enim voluptates, deleniti voluptatum facere possimus facilis, molestiae nostrum placeat quidem consectetur suscipit sunt!. 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo explicabo dicta sequi maiores nam laudantium? Doloremque deserunt voluptates quidem nulla delectus nam illum. Tenetur quisquam placeat consequuntur expedita quasi. 
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magnam incidunt fugit reprehenderit dolor quidem natus, iste eveniet inventore accusantium rerum culpa. Nisi tempore consequuntur suscipit quia maiores ab. Fugiat!
       </p>
+      <div className={styles.containerBlocos}>
+        <div className={styles.brancoBranco}></div>
+        <div className={styles.brancoCinza}></div>
+        <div className={styles.pretoPreto}></div>
+        <div className={styles.pretoCinza}></div>
+      </div>
     </div>
   )
 }
