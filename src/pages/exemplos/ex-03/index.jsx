@@ -9,10 +9,7 @@ export default function Exemplo03() {
     function handleIncrementa () {
         setNum(num + 1);
     }
-    function handleDiminuir () {
-        setNum(num - 1);
-    }
-
+    
     return (
         <div className={styles.container}>
             <label className={styles.texto}>{`Contador: ${num}`}</label>            
@@ -20,11 +17,6 @@ export default function Exemplo03() {
                 onClick={() => handleIncrementa()}
                 className={styles.botao}
             >+1</label>
-
-            <label 
-                onClick={() => handleDiminuir()}
-                className={styles.botao}
-            >-1</label>
         </div>
     );
 }

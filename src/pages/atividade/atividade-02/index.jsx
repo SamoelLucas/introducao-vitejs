@@ -1,0 +1,37 @@
+import { useState } from "react";
+
+import styles from './index.module.css';
+
+export default function Atividade02() {  
+
+    const [num, setNum] = useState(100);
+
+    function handleIncrementa () {
+        setNum(num + 1);
+    }
+    function handleDiminuir () {
+        setNum(num - 1);
+    }
+
+    return (
+      <div className={styles.container}>
+        <div className={styles.containerOperacoes}>
+          <div className={styles.containerLabel}>             
+            <label 
+                onClick={() => handleDiminuir()}
+                className={styles.botao}
+            >-1</label>
+          </div>  
+        <div>
+            <label className={styles.texto}>{`Contador: ${num}`}</label>
+        </div> 
+          <div className={styles.containerLabel}>
+            <label 
+                onClick={() => handleIncrementa()}
+                className={styles.botao}
+            >+1</label>
+          </div>
+        </div>
+      </div>
+    );
+}
