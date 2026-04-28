@@ -19,6 +19,7 @@ function Home() {
 
                 <Link to="/atividade/1">Atividade 1 - Componente básico</Link>
                 <Link to="/atividade/2">Atividade 2 - Soma e subtração</Link>
+                <Link to="/atividade/3">Atividade 3 - Botões coloridos</Link>
 
             </div>
         </div>

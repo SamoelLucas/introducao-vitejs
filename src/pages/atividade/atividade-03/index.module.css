@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96vh;
+    gap: 1rem;
+}
+
+.containerOperacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.botao1 {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    color: #fafafa;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+.botao2 {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    color: #fafafa;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+.botao3 {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    color: #fafafa;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+.botao4 {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    color: #fafafa;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+.botao5 {
+    font-size: 2rem;
+    border-radius: 0.7rem;
+    color: #fafafa;
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: #fafafa;
+    background-color: #000;
+    cursor: pointer;
+}
