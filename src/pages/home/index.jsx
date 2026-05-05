@@ -12,6 +12,8 @@ function Home() {
                 <Link to="/exemplo/1">Exemplo 1 - Componente básico</Link>
                 <Link to="/exemplo/2">Exemplo 2 - Uso de estilização</Link>
                 <Link to="/exemplo/3">Exemplo 3 - Soma e subtração</Link>
+                <Link to="/exemplo/4">Exemplo 4 - Uso de componentes</Link>
+                <Link to="/exemplo/5">Exemplo 5 - Formulário</Link>
 
             </div>
             <div className={styles.containerItens}>
@@ -20,6 +22,7 @@ function Home() {
                 <Link to="/atividade/1">Atividade 1 - Componente básico</Link>
                 <Link to="/atividade/2">Atividade 2 - Soma e subtração</Link>
                 <Link to="/atividade/3">Atividade 3 - Botões coloridos</Link>
+                <Link to="/atividade/4">Atividade 4 - Uso de componentes</Link>
 
             </div>
         </div>

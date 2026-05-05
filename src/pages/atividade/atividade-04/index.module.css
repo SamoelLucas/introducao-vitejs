@@ -1,0 +1,25 @@
+.container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    color: #8B0000;          /* vermelho escuro */
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.formulario {     
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 5rem;
+    max-width: 40rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-width: 1rem;
+    border-color: black;
+    background-color: #8B0000;
+}
