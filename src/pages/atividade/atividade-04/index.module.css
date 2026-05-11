@@ -21,5 +21,27 @@
     gap: 1rem;
     border-width: 1rem;
     border-color: black;
+}
+
+.button {
     background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.box1 {
+    width: 6rem;
+}
+
+.box2 {
+    width: 25srem;
+}
+
+.lista {
+    border-radius: 1rem;
+    border-color: darkgray;
+    background-color: whitesmoke;
 }
